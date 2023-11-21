@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "declaration": true,
+        "useDefineForClassFields": true,
+        "noImplicitAny": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "strict": true,
+        "allowJs": true,
+        "jsx": "preserve",
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "outDir": "./types",
+        "baseUrl": ".",
+        // "outFile": "./types/common.d.ts",
+        "lib": ["esnext", "dom"],
+        "emitDeclarationOnly": true,
+        "noImplicitThis": false
+    },
+    "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+    "ts-node": {
+        "compilerOptions": {
+            "module": "commonjs"
+        }
+    }
+}

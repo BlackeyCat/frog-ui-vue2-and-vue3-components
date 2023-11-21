@@ -1,0 +1,8 @@
+{
+    "demo-component": {
+        "name": "demo-component",
+        "zhName": "示例组件",
+        "desc": "默认：这是一个新组件",
+        "url": "./src/components/demo-component/index.ts"
+    }
+}
