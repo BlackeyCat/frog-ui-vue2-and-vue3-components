@@ -3,7 +3,7 @@ import sidebarGuide from './routes/guide';
 export default defineConfig({
     lang: 'en-US',
     title: '小青蛙组件库',
-    base: '/frog-ui-vue2-and-vue3-components/',
+    base: '/frog-ui-vue2-and-vue3-components/dist/',
     description: 'Vite & Vue powered static site generator.',
     lastUpdated: true,
     outDir: 'dist',
